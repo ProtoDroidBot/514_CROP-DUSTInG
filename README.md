@@ -15,8 +15,6 @@ As a result, I probably shouldn't blanket-cover the repository with any license 
 
 Credit and attribution would be preferred too if you re-use the methods described within.
 
-## **THIS IS NOT AN ENDORSEMENT OF AI/LLM USAGE FOR EVERYDAY PROGRAMMING TASKS. THESE AI TOOLS STILL REQUIRE SOME HUMAN THOUGHT AND PLANNING. PLEASE USE RESPONSIBLY.**
-
 
 ## Project Description
 Scratch space which will eventually contain documentation and reproducible analysis on the quirks of RPCS3 during attempts to run DUST 514 on it.
@@ -35,3 +33,6 @@ https://github.com/clienthax/Ps3GhidraScripts - ghidra_12.1.2_PUBLIC_20260712_Ps
 OpenAI ChatGPT / Codex
 
 https://github.com/themixednuts/GhidraMCP
+
+## Final thoughts
+**THIS IS NOT AN ENDORSEMENT OF AI/LLM USAGE FOR EVERYDAY PROGRAMMING TASKS OR USES/USAGE. THESE AI TOOLS STILL REQUIRE SOME HUMAN THOUGHT AND PLANNING. PLEASE USE RESPONSIBLY.**
