@@ -34,8 +34,11 @@ Title ID/TitleID: PlayStation Title ID, most folder paths in the project will ha
 
 ### Patch Variants
 Defines what sort of patching strategy I used based on the .pkg files I have on hand at the time of analysis. Here for historical purposes, but overall wouldn't make much sense to those looking for just a working patch. This also required a unified file/folder name pattern to differentiate clients with incremental patches applied, versus a full packaged game client version.
+
 var1: Var1/Variant 1 files and folders have the first full HDD Game client available plus any subsequent incremental patches up to the designated version. Patches are applied all at once and in order.
+
 var2: Var2/Variant 2 files and folders have the full HDD Game client ready to go in that specific .pkg file. There's no need for RPCS3 to apply incremental patches in this case.
+
 
 In most cases, you would need only the var1 patch for that specific game version/title ID.
 
@@ -45,20 +48,33 @@ I am not confident in the true legitimacy of the var2 clients, but they are ther
 WIP
 
 ~\ - 514_CROP-DUSTInG repository, you are here!
+
 ~\docs\ - Documents and methodology will be available in here for the inquring minds.
+
 ~\docs\CodexGen\DUST514_RPCS3_EDGEZLIB_PATCH_REPRODUCTION.md - Codex generated summary of the patching strategy and how to replicate the associated patching strategy.
+
 ~\ghidra_scripts\ - various Ghidra scripts created and used by Codex during this project. Might be useful to someone later. I will try to explain what each script does.
+
 ~\rpcs3_patches\ - the actual RPCS3 patches produced as part of this project.
+
 ~\rpcs3_patches\NPUB30643_0319\ - contains the very first working patch for the last DUST 514 USA version (Title ID: NPUB30643 | Version: 03.19)
+
 ~\rpcs3_patches\NPUB30643\ - Contains patches for various NPUB30643 versions
+
 ~\rpcs3_patches\NPUB30643\var1\\####\rpcs3buildfolder\ - var1 folders (incremental) with patch version following #### without the decimal in between. 0317 for example is version 03.17
+
 ~\rpcs3_patches\NPUB30643\var2\\####\rpcs3buildfolder\ - var2 folders (full) with patch version following #### without the decimal in between. 0319 for example is version 03.19
+
 ~\rpcs3_patches\NPUB30643\var2\0317\rpcs3-beb065f763b4\NPUB30643_0317_var2_edgezlib_fallback_patch.yml - RPCS3 EdgeZlib fallback patch for Title ID NPUB30643, version 03.17
+
 --------------------------------------------------------------------------------
-## AI Assistance provided by
+## AI Assistance provided by:
 OpenAI ChatGPT / Codex
 
 https://github.com/themixednuts/GhidraMCP
---------------------------------------------------------------------------------
+
+## Additional credits to: DUSTmu team
+
+
 ## Final thoughts
 **THIS IS NOT AN ENDORSEMENT OF AI/LLM USAGE FOR EVERYDAY PROGRAMMING TASKS OR USES/USAGE. THESE AI TOOLS STILL REQUIRE SOME HUMAN THOUGHT AND PLANNING. PLEASE USE RESPONSIBLY.**
