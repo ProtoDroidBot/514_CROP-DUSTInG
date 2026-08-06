@@ -72,9 +72,9 @@ WIP
 OpenAI ChatGPT / Codex
 
 https://github.com/themixednuts/GhidraMCP
---------------------------------------------------------------------------------
-## Additional credits to:
-DUSTmu team
---------------------------------------------------------------------------------
+
+## Additional credits to: DUSTmu team
+
+
 ## Final thoughts
 **THIS IS NOT AN ENDORSEMENT OF AI/LLM USAGE FOR EVERYDAY PROGRAMMING TASKS OR USES/USAGE. THESE AI TOOLS STILL REQUIRE SOME HUMAN THOUGHT AND PLANNING. PLEASE USE RESPONSIBLY.**
