@@ -1,0 +1,37 @@
+{
+  "artifacts": [
+    {
+      "name": "COALESCED_INT_summary.json",
+      "sha256": "823436BB562320C7A8C9A59401047693903976BE0CC366C1676BA49B61471762",
+      "size_bytes": 56375
+    },
+    {
+      "name": "COALESCED_INT_validation.json",
+      "sha256": "3E53551AFE6861E56DBA8BAF8998822F62973107A9F48EA5F66E88CC715DEEB0",
+      "size_bytes": 2148
+    },
+    {
+      "name": "COALESCED_INT_source_files.jsonl",
+      "sha256": "B82D490D4EEF0DA85333D38E0E26A67FA6325214B8616F983A6B9DB8215C7537",
+      "size_bytes": 74597
+    },
+    {
+      "name": "COALESCED_INT_entries.jsonl.gz",
+      "sha256": "A84C793A45AEFDA6D15CE4DFBB2B0F9A99AE0FD5DBEC80B3EF0980375CD2D159",
+      "size_bytes": 376473
+    },
+    {
+      "name": "COALESCED_INT_report.md",
+      "sha256": "6D076D4060C3ABBDB41F34E3AD58D48A48C48B65A97FD937F5A7B53C3BEFCC12",
+      "size_bytes": 10522
+    }
+  ],
+  "schema_version": 1,
+  "source": {
+    "md5": "610C49481B2674FB12E642BF68439ABC",
+    "name": "COALESCED_INT.BIN",
+    "sha1": "236CC43A975800265AC6938DC8AC19820AC77616",
+    "sha256": "3902C84984DFD62BD7B50185D9AE59F7E73E42F81D3C5D47DD7F2B102DF3931B",
+    "size_bytes": 821932
+  }
+}

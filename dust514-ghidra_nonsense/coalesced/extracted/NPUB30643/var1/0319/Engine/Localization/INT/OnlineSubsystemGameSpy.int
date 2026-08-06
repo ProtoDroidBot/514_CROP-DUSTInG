@@ -1,0 +1,5 @@
+[OnlineSubsystemGameSpy]
+LocalProfileName=Player
+DefaultStatus=Playing
+GameInviteMessage=Would you like to play a game?
+

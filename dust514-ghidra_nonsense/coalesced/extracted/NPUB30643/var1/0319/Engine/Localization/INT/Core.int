@@ -1,0 +1,134 @@
+[Language]
+Language=English (International)
+LangId=9
+SubLangId=1
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+
+[Errors]
+Unknown=Unknown Error
+Aborted=Aborted
+ExportOpen=Error exporting `~: couldn't open file '`~'
+ExportWrite=Error exporting `~: couldn't write file '`~'
+FileNotFound=Can't find file '`~'
+ObjectNotFound=Failed to find object '`~ `~.`~'
+PackageNotFound=Can't find file for package '`~' while loading `~
+PackageResolveFailed=Can't resolve package name
+FilenameToPackage=Can't convert filename '`~' to package name
+Sandbox=Package '`~' is not accessible in this sandbox
+PackageVersion=Package '`~' version mismatch
+SavedWithNewerVersion=Package '`~' has been saved with engine version newer than current and therefore won't be possible to save. CurrEngineVersion: `~  VersionSavedWith: `~
+CannotSaveWithOlderVersion=Cannot save package '`~' as current engine version is older than version the package was originally saved with.
+CannotSavePartiallyLoaded=Cannot save package '`~' as it has only been partially loaded
+CannotSaveStartupPackage=Cannot save package '`~' as user opted not to save this startup package
+CannotSaveConformIncompatibility=Cannot save conformed package '`~' as it is incompatible with the original
+Error_FilenameIsTooLongForCooking=Filename '`~' is too long; this may interfere with cooking for consoles.  Unreal filenames should be no longer than `~ characters.
+FailedLoad=Failed to load '`~': `~
+ConfigNotFound=Can't find '`~' in configuration file section=`~ key=`~
+LoadClassMismatch=`~ is not a child class of `~
+NotDll='`~' is not a DLL package; can't find export '`~'
+NotInDll=Can't find '`~' in '`~.lib'
+FailedLoadPackage=Failed loading package: `~
+FailedLoadObject=Failed to load '`~ `~.`~': `~
+TransientImport=Transient object imported: `~
+LinkedToObjectsInOtherMap_FindCulpritQ=Can't save `~: Graph is linked to object in external map package.  Try to find the chain of references to that object (may take some time)?
+LinkedToPrivateObjects_FindCulpritQ=Can't save `~: Graph is linked to external private object.  Try to find the chain of references to that object (may take some time)?
+FailedSaveOtherMapPackage=Can't save `~: Graph is linked to object `~ in external map package
+FailedSavePrivate=Can't save `~: Graph is linked to external private object `~
+FailedImportPrivate=Can't import private object `~ `~
+FailedCreate=`~ `~ not found for creation
+FailedImport=Can't find `~ in file '`~'
+FailedSaveFile=Error saving file '`~': `~
+SaveWarning=Error saving '`~'
+NotPackaged=Object is not packaged: `~ `~
+NotWithin=Object `~ `~ created in `~ instead of `~
+Abstract=Can't create object `~: class `~ is abstract
+NoReplace=Can't replace `~ with `~
+ReplaceNotFullyLoaded_f=Attempting to replace an object that hasn't been fully loaded: `~
+ReplaceNoPostLoad_f=Can't replace objects which need to be post-loaded while still de-serializing objects: `~
+NoFindImport=Can't find file '`~' for import
+ReadFileFailed=Failed to read file '`~' for import
+SeekFailed=Error seeking file
+OpenFailed=Error opening file '`~' (`~).
+WriteFailed=Error writing to file
+ReadEof=Read beyond end of file
+IniReadOnly=The file `~ is write protected; settings cannot be saved
+UrlFailed=Failed launching URL
+Warning=Warning
+Question=Question
+OutOfMemory=Ran out of virtual memory. To prevent this condition, you must free up more space on your primary hard disk.
+History=History
+Assert=Assertion failed: `~ [File:`~] [Line: `~]
+Debug=Debug assertion failed: `~ [File:`~] [Line: `~]
+LinkerExists=Linker for '`~' already exists
+BinaryFormat=The file '`~' contains unrecognizable data
+SerialSize=`~: Serial size mismatch: Got `~, Expected `~
+ExportIndex=Bad export index `~/`~
+ImportIndex=Bad import index `~/`~
+Password=Password not recognized
+Exec=Unrecognized command
+BadProperty='`~': Bad or missing property '`~'
+MisingIni=Missing .ini file: `~
+Error_ActorComponentDestroyedWithoutRemoval=Actor component (`~) destroyed without removal from scene
+FileVersionDump=Unable to load package (`~) PackageVersion `4~, MaxExpected `4~ : LicenseePackageVersion `4~, MaxExpected `4~.
+CookedPackagedVersionOlderThanEnginePackageFileCookedContentVersion=Unable to run as package was cooked with an older version of the engine. Please recook: (`~) CurrEngineVersion: `~  VersionSavedWith: `~
+NativeRebuildRequired=Unable to create object of type '`~': native class layout differs from script layout.  Please build C++ before continuing to avoid data corruption.
+PackageNamedNone=Attempted to create a package named 'None'
+EmptyPackageName=Attempted to create a package with an empty package name.
+OldVersionFile=The file `~ was saved by a previous version which is not backwards compatible with this one.
+LoadingTransientInstance=Attempting to load an instance of a transient class from disk - Package:'`~'  Object:'`~'  Class:'`~'
+LoadedDeprecatedClassInstance=`~: class `~ has been deprecated.
+OperationDisallowedOnCookedContent=The requested operation cannot be performed on a cooked package.
+PackageBiggerThanSoftLimit=Package `~ was successfully saved and is `~ MByte in size.  This exceeds the recommended package size.  Please split it up to be less than `~ MByte.
+PS3SupportNotLoaded=The PS3 tools are not installed; objects may have been saved uncooked! Please install the latest PS3 SDK!
+Xbox360SupportNotLoaded=The Xbox360 tools are not installed; objects may have been saved uncooked! Please the install the latest XDK!
+MissingExeConfigFileError=Loading the editor with managed code requires the existance of the '`~' file which was not found.  This file is necessary in order for the managed runtime to locate dependent assembly files.  The application will now exit.
+
+[Query]
+OldVersion=The file `~ was saved by a previous version which is not backwards compatible with this one.  Reading it will likely fail, and may cause a crash. Do you want to try anyway?
+Name=Name:
+Password=Password:
+PassPrompt=Enter your name and password:
+PassDlg=Identity Check
+Overwrite=The file '`~' needs to be updated.  Do you want to overwrite the existing version?
+OverwriteMultiple=These files need to be updated: `~
+Do you want to overwrite the existing versions?
+(Press cancel to see the diffs and then choose)
+OverwriteReadOnly='`~' is marked read-only.  Would you like to try to force overwriting it?
+CheckoutPerforce='`~' is marked read-only.  Should I try to check it out of Perforce?
+PackageFailedToOpen=The package '`~' failed to open. Should this commandlet continue operation, ignoring further load errors? Continuing may have adverse effects (object references may be lost).
+RemoveNativeClass=Native class with no script detected: '`~'. Should this class be removed from static initialization? (If you haven't recently removed a native script class, make sure that the class declaration includes CLASS_Intrinsic.)
+Warning_ForceDelete=Deleting `~.
+
+Forcing delete on a referenced object is potentially dangerous and could cause data corruption.  The following objects may have invalid references if you proceed:
+ `~.
+
+Do you wish to delete this referenced object?
+
+[Progress]
+Saving=Saving file: `~...
+Loading=Loading file: `~...
+Finalizing=Finalizing: `~...
+
+[General]
+Product=Unreal
+Engine=Unreal Engine
+Copyright=Copyright 1998-2010 Epic Games, Inc. All Rights Reserved.
+True=True
+False=False
+None=None
+Yes=Yes
+No=No
+
+[HelpCommandlet]
+HelpDescription=This commandlet displays help information on other commandlets
+HelpUsage=gamename.exe help <list | commandletname | webhelp commandletname>
+HelpWebLink=https://udn.epicgames.com/bin/view/Three/HelpCommandlet
+HelpParamNames[0]=list
+HelpParamDescriptions[0]=Lists all commandlets that are available
+HelpParamNames[1]=commandlet name
+HelpParamDescriptions[1]=Displays help information for the specified commandlet
+HelpParamNames[2]=webhelp
+HelpParamDescriptions[2]=Launches a browser with the URL of the web page that documents the commandlet
+

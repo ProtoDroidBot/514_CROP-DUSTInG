@@ -1,0 +1,14 @@
+[General]
+Start=UnrealEngine3 (Starting)
+Exit=UnrealEngine3 (Exiting)
+Run=UnrealEngine3 (Running)
+Product=UnrealEngine3
+
+[Errors]
+Error_RemoteDesktop=This game cannot run with 3D graphics over a Remote Desktop connection.
+Error_ParentalControls=The current level of parental controls do not allow you to run this game.
+Error_ResolutionTooLow=The current resolution is too low to run this game.
+Error_NotMinSpec=Your hardware does not meet the minimum requiremts. Do you want to continue?
+Error_ModifiedCode=Modified executable code is not allowed. Please reinstall the game.
+Error_PureVirtualsEnabled=The game cannot run with CHECK_PUREVIRTUALS enabled.  Please disable CHECK_PUREVIRTUALS and rebuild the executable.
+

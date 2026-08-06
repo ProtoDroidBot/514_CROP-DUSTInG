@@ -1,0 +1,21 @@
+[EarlyTranslation]
+ChatDisabled=Chat is disabled on your Sony0A0Entertainment0A0Network account due to chat restrictions. With these restrictions in place corporation functionality will be disabled and all user-created content will be replaced with system defaults. This includes, but is not limited to, character names and portraits.
+ConnectionLost=Connection to PlayStation
+eNetwork was lost.
+FatalError=A fatal error has occured. The game cannot continue. Please quit and restart the game.
+OnlineServiceDisabled=Online service is disabled on your Sony0A0Entertainment0A0Network account due to parental control restrictions. This game offers no offline content.
+RegionMismatch=The region of the Sony0A0Entertainment0A0Network0A0(SEN) account you are using does not match the region of this DUST 514® game client. As a result some important game features will not work as expected, including the Title Store. We recommend that you use a DUST 514® game client that matches the region of your SEN account.
+UnexpectedProblem=Unexpected problem initializing game, try again and if the problem persists, reinstall it.
+UpdateGame=You must update the game to play.  Use the PS button to exit the game and restart.
+
+[Errors]
+CameraDisconnected=PlayStation®Eye camera is not correctly connected
+MoveControllerCannotBeUsedAlone=Motion controller cannot be used alone. Please connect a wireless controller or navigation controller for use with motion controller.
+MoveControllerCannotBeUsedWithMouseAndKeyboard=Please turn off motion controller when using Mouse and Keyboard
+OverwriteCorruptedSaveData=Save data is corrupted and will be overwritten in the next save operation
+
+[General]
+SaveGameDetail=DUST 514® game settings, user data, etc.
+SaveGameSubtitle=DUST 514® save data
+SaveGameTitle=DUST 514®
+

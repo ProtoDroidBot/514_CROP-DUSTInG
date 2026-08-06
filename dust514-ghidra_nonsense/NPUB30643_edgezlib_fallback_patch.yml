@@ -1,0 +1,12 @@
+Version: 1.2
+
+PPU-ae3f946dfcb103b782f73f1cc5f90587e652f439:
+  "Force PPU zlib fallback (EdgeZlib bypass)":
+    Games:
+      "DUST 514":
+        NPUB30643: [ 03.19 ]
+    Author: "Dust 514 RPCS3 research"
+    Patch Version: 0.3
+    Notes: "RPCS3-only diagnostic workaround. Routes decompression jobs that would use EdgeZlib/SPU through the game's existing synchronous PPU fallback. Enable only for NPUB30643 app version 03.19."
+    Patch:
+      - [ be32, 0x00699778, 0x4bffffe8 ] # b 0x00699760: bypass EdgeZlib submit/wait and use the existing PPU zlib fallback

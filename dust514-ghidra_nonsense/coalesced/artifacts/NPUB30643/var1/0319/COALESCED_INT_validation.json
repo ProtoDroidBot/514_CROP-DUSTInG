@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "evidence": {
+        "parsed_bytes": 821932,
+        "source_bytes": 821932,
+        "trailing_bytes": 0
+      },
+      "name": "parsed_to_exact_eof",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "declared": 24,
+        "parsed": 24
+      },
+      "name": "declared_file_count_reconciles",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "sections": 323
+      },
+      "name": "section_counts_reconcile",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "output_rows": 5699,
+        "parsed_entries": 5699
+      },
+      "name": "entry_counts_reconcile",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "accounted_bytes": 821932,
+        "source_bytes": 821932
+      },
+      "name": "serialized_byte_accounting_reconciles",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "allowed_extensions": [
+          ".ini",
+          ".int"
+        ],
+        "extensions": [
+          ".ini",
+          ".int"
+        ]
+      },
+      "name": "ue3_coalesced_shape",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "embedded_files_extracted": false,
+        "logical_paths_recorded_verbatim": true
+      },
+      "name": "embedded_paths_not_used_as_destinations",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "3902C84984DFD62BD7B50185D9AE59F7E73E42F81D3C5D47DD7F2B102DF3931B",
+        "expected": "3902C84984DFD62BD7B50185D9AE59F7E73E42F81D3C5D47DD7F2B102DF3931B"
+      },
+      "name": "expected_sha256",
+      "passed": true,
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "evidence": {
+        "detected_dust514_ps3_int": true,
+        "marker_score": "6/6",
+        "path_score": "6/6",
+        "requested": "dust514-ps3-int"
+      },
+      "name": "requested_profile",
+      "passed": true,
+      "required": true
+    }
+  ],
+  "matches_dust514_ps3_int_profile": true,
+  "matches_expected_fixture_hash": true,
+  "matches_ue3_coalesced_shape": true,
+  "profile_required": true,
+  "requested_profile": "dust514-ps3-int",
+  "schema_version": 1,
+  "structurally_valid": true,
+  "valid": true
+}
