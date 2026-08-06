@@ -1,0 +1,109 @@
+{
+    "schema_version":  2,
+    "updated_at_utc":  "2026-08-05T18:41:37.2496386Z",
+    "target":  {
+                   "title_id":  "NPUB30643",
+                   "variant":  "var2",
+                   "version":  "0317",
+                   "client":  "rpcs3_NPUB30643-0317_var2"
+               },
+    "stages":  {
+                   "1":  {
+                             "updated_at_utc":  "2026-08-05T15:32:15.8794396Z",
+                             "stage_name":  "copy_client",
+                             "status":  "complete",
+                             "details":  {
+                                             "client_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2"
+                                         }
+                         },
+                   "2":  {
+                             "updated_at_utc":  "2026-08-05T15:41:47.0480684Z",
+                             "stage_name":  "install_packages",
+                             "status":  "complete",
+                             "details":  {
+                                             "eboot_bin_sha256":  "67CC8B56104531D3E249E08FCFF7DBD251DEFB749CB982FCF173785B1BA42C64",
+                                             "eboot_bin_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\dev_hdd0\\game\\NPUB30643\\USRDIR\\EBOOT.BIN"
+                                         }
+                         },
+                   "3":  {
+                             "updated_at_utc":  "2026-08-05T15:43:20.3503137Z",
+                             "stage_name":  "decrypt_elf",
+                             "status":  "complete",
+                             "details":  {
+                                             "elf_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\dev_hdd0\\game\\NPUB30643\\USRDIR\\EBOOT.elf",
+                                             "elf_sha256":  "700B22FA4C83C5B8F970AF310B6DF2A0A8D63B23D75910FE5E18934FB0188764"
+                                         }
+                         },
+                   "4":  {
+                             "updated_at_utc":  "2026-08-05T17:04:29.3469289Z",
+                             "stage_name":  "prepare_ghidra",
+                             "status":  "complete",
+                             "details":  {
+                                             "program_name":  "/NPUB30643/var2/0317/EBOOT.elf",
+                                             "project_directory":  "G:\\dust514-ghidra_nonsense\\ghidra_output",
+                                             "project_name":  "dust",
+                                             "used_existing":  true
+                                         }
+                         },
+                   "5":  {
+                             "updated_at_utc":  "2026-08-05T17:12:19.3979302Z",
+                             "stage_name":  "release_ghidra_lock",
+                             "status":  "complete",
+                             "details":  {
+                                             "project_file":  "G:\\dust514-ghidra_nonsense\\ghidra_output\\dust.gpr"
+                                         }
+                         },
+                   "6":  {
+                             "updated_at_utc":  "2026-08-05T17:41:45.9224983Z",
+                             "stage_name":  "analyze_functions",
+                             "status":  "complete",
+                             "details":  {
+                                             "source_elf_sha256":  "700B22FA4C83C5B8F970AF310B6DF2A0A8D63B23D75910FE5E18934FB0188764",
+                                             "analysis_directory":  "G:\\RPCS3-DUSTCOMPARE\\analysis_outputs\\NPUB30643\\var2\\0317",
+                                             "source_project_read_only":  true,
+                                             "used_existing":  false
+                                         }
+                         },
+                   "7":  {
+                             "updated_at_utc":  "2026-08-05T18:39:42.8440930Z",
+                             "stage_name":  "build_patch",
+                             "status":  "complete",
+                             "details":  {
+                                             "rpcs3_executable_sha256":  "BEB065F763B4F3A50EC6D41CEF9F4C980657D833A3784C9A54BBDD46EA11D32F",
+                                             "ppu_hash":  "PPU-e5e39ab570a2753301e1b4ca7438a1548e842760",
+                                             "runtime_validation_required":  true,
+                                             "evidence_path":  "G:\\RPCS3-DUSTCOMPARE\\edgezlib_artifacts\\NPUB30643\\var2\\0317\\rpcs3-beb065f763b4\\NPUB30643_0317_var2_edgezlib_fallback_patch.yml.evidence.json",
+                                             "patch_path":  "G:\\RPCS3-DUSTCOMPARE\\edgezlib_artifacts\\NPUB30643\\var2\\0317\\rpcs3-beb065f763b4\\NPUB30643_0317_var2_edgezlib_fallback_patch.yml",
+                                             "rpcs3_executable":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\rpcs3.exe",
+                                             "rpcs3_file_version":  null,
+                                             "patch_sha256":  "1E74114F900B2DAD40CB81DD47920DC6C7350F10202AE66D2D7767C15CF00499"
+                                         }
+                         },
+                   "8":  {
+                             "updated_at_utc":  "2026-08-05T18:39:49.3211189Z",
+                             "stage_name":  "install_enable_patch",
+                             "status":  "complete",
+                             "details":  {
+                                             "installed_patch_sha256":  "1E74114F900B2DAD40CB81DD47920DC6C7350F10202AE66D2D7767C15CF00499",
+                                             "installed_patch_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\patches\\NPUB30643_patch.yml",
+                                             "patch_config_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\config\\patch_config.yml",
+                                             "ppu_hash":  "PPU-e5e39ab570a2753301e1b4ca7438a1548e842760",
+                                             "enabled_patch_count":  1
+                                         }
+                         },
+                   "9":  {
+                             "updated_at_utc":  "2026-08-05T18:41:37.2448751Z",
+                             "stage_name":  "validate_runtime",
+                             "status":  "complete",
+                             "details":  {
+                                             "runtime_log_sha256":  "E3FC946E81366CA9EDAA065F8344C9743721910AB9910D36D36D2DE802C7D758",
+                                             "applied_replacement_count":  1,
+                                             "runtime_evidence_path":  "G:\\RPCS3-DUSTCOMPARE\\edgezlib_artifacts\\NPUB30643\\var2\\0317\\rpcs3-beb065f763b4\\NPUB30643_0317_var2_runtime-validation.json",
+                                             "server_dependent_package_completion_observed":  false,
+                                             "runtime_log_archive_path":  "G:\\RPCS3-DUSTCOMPARE\\edgezlib_artifacts\\NPUB30643\\var2\\0317\\rpcs3-beb065f763b4\\NPUB30643_0317_var2_runtime.RPCS3.log",
+                                             "intro_screen_operator_confirmed":  true,
+                                             "status":  "verified_runtime_intro_smoke_test"
+                                         }
+                         }
+               }
+}

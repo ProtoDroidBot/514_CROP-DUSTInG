@@ -1,0 +1,84 @@
+{
+  "analysis": {
+    "decompilation_sha256": "b93075f86663d0bb7d979678d7e0963e040e257e6cab13e2e4a80fce1fcc94b4",
+    "decompress_string_reference_function_count": 2,
+    "directory": "G:\\RPCS3-DUSTCOMPARE\\analysis_outputs\\NPUB30643\\var2\\0317",
+    "dispatcher_body": {
+      "address_count": 472,
+      "maximum": "006997df",
+      "minimum": "00699608",
+      "ranges": [
+        {
+          "length": 472,
+          "maximum": "006997df",
+          "minimum": "00699608"
+        }
+      ]
+    },
+    "dispatcher_entry_point": "00699608",
+    "dispatcher_name": "FUN_00699608",
+    "dispatcher_normalized_span_sha256": "ee847add9501e1b65a062472f3f93c57b7021ea9a08237aa9acd52ea5e4d5171",
+    "dispatcher_symbol_id": 48817,
+    "function_count": 73459,
+    "program": "EBOOT.elf",
+    "rejected_string_reference_functions": [
+      {
+        "entry_point": "01611cc0",
+        "reason": "The dispatcher decompilation lacks the 64 KiB guard."
+      }
+    ],
+    "string_reference": "Decompress"
+  },
+  "artifacts": {
+    "evidence_json": "G:\\RPCS3-DUSTCOMPARE\\edgezlib_artifacts\\NPUB30643\\var2\\0317\\rpcs3-beb065f763b4\\NPUB30643_0317_var2_edgezlib_fallback_patch.yml.evidence.json",
+    "patch_yaml": "G:\\RPCS3-DUSTCOMPARE\\edgezlib_artifacts\\NPUB30643\\var2\\0317\\rpcs3-beb065f763b4\\NPUB30643_0317_var2_edgezlib_fallback_patch.yml",
+    "patch_yaml_sha256": "1E74114F900B2DAD40CB81DD47920DC6C7350F10202AE66D2D7767C15CF00499"
+  },
+  "patch": {
+    "address": "0x00699778",
+    "edge_call_addresses": [
+      "0x0069978c",
+      "0x00699798"
+    ],
+    "edge_call_targets": [
+      "0x00674728",
+      "0x0067492c"
+    ],
+    "elf_file_offset": "0x689778",
+    "fallback_block_address": "0x00699760",
+    "fallback_call_addresses": [
+      "0x00699770",
+      "0x006997b4"
+    ],
+    "fallback_function_address": "0x00086c0c",
+    "fallback_function_name": "FUN_00086c0c",
+    "join_address": "0x006997b8",
+    "original_be32": "0x309ffffa",
+    "original_bytes_hex": "309ffffa",
+    "replacement_be32": "0x4bffffe8"
+  },
+  "policy": {
+    "elf_mutated": false,
+    "expected_applied_patch_count": 1,
+    "ghidra_project_mutated": false,
+    "runtime_validation_required": true
+  },
+  "rpcs3": {
+    "executable_path": "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\rpcs3.exe",
+    "executable_sha256": "BEB065F763B4F3A50EC6D41CEF9F4C980657D833A3784C9A54BBDD46EA11D32F",
+    "executable_size": 67085824,
+    "file_version": null,
+    "note": "Guest patch addresses are derived from the game ELF. This RPCS3 identity records the emulator build requiring separate runtime validation."
+  },
+  "schema_version": 1,
+  "status": "verified_offline_patch_candidate",
+  "target": {
+    "app_version": "03.17",
+    "elf_path": "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\dev_hdd0\\game\\NPUB30643\\USRDIR\\EBOOT.elf",
+    "elf_sha256": "700B22FA4C83C5B8F970AF310B6DF2A0A8D63B23D75910FE5E18934FB0188764",
+    "elf_size": 30501100,
+    "game_title": "DUST 514",
+    "ppu_hash": "PPU-e5e39ab570a2753301e1b4ca7438a1548e842760",
+    "title_id": "NPUB30643"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "schema_version":  1,
+    "status":  "verified_runtime_intro_smoke_test",
+    "recorded_at_utc":  "2026-08-05T18:37:03.0436007Z",
+    "target":  {
+                   "title_id":  "NPUB30643",
+                   "app_version":  "03.17",
+                   "variant":  "var2",
+                   "ppu_hash":  "PPU-e5e39ab570a2753301e1b4ca7438a1548e842760",
+                   "elf_sha256":  "700B22FA4C83C5B8F970AF310B6DF2A0A8D63B23D75910FE5E18934FB0188764"
+               },
+    "rpcs3":  {
+                  "executable_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\rpcs3.exe",
+                  "executable_sha256":  "BEB065F763B4F3A50EC6D41CEF9F4C980657D833A3784C9A54BBDD46EA11D32F",
+                  "log_header":  "RPCS3 v0.0.42-19694-4214dff3 Alpha | master"
+              },
+    "patch":  {
+                  "installed_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\patches\\NPUB30643_patch.yml",
+                  "sha256":  "1E74114F900B2DAD40CB81DD47920DC6C7350F10202AE66D2D7767C15CF00499",
+                  "applied_replacement_count":  1,
+                  "no_other_patch_files":  true
+              },
+    "functional_gate":  {
+                            "intro_screen_operator_confirmed":  true,
+                            "intro_bik_log_marker_count":  2,
+                            "charactericons_reference_count":  2,
+                            "charactericons_open_count":  0,
+                            "charactericons_full_read_observed":  false,
+                            "scope":  "Patch application plus intro smoke test; server-dependent package completion was not exercised."
+                        },
+    "log":  {
+                "source_path":  "G:\\RPCS3-DUSTCOMPARE\\rpcs3_NPUB30643-0317_var2\\log\\RPCS3.log",
+                "archived_path":  "G:\\RPCS3-DUSTCOMPARE\\edgezlib_artifacts\\NPUB30643\\var2\\0317\\rpcs3-beb065f763b4\\NPUB30643_0317_var2_runtime.RPCS3.log",
+                "sha256":  "E3FC946E81366CA9EDAA065F8344C9743721910AB9910D36D36D2DE802C7D758",
+                "applied_patch_line_number":  467,
+                "ppu_hash_line_number":  468,
+                "intro_bik_line_number":  45120
+            }
+}
